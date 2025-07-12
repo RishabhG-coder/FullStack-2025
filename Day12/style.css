@@ -1,0 +1,21 @@
+#mainHeading {
+    background-color: #4a90e2;
+    /* Soothing blue */
+}
+
+main {
+    background-color: #f5f5f5;
+    /* Light gray for a soft contrast */
+}
+
+.heading {
+    color: #ffffff;
+    /* White text for contrast */
+    background-color: #3b5998;
+    /* Dark blue for a calming effect */
+}
+
+.blue {
+    color: #2c3e50;
+    /* Dark gray-blue for better readability */
+}
