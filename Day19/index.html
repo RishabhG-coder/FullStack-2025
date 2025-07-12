@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Fonts, Text & Color Properties</title>
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap" rel="stylesheet"> -->
+
+    <style>
+        /* @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap'); */
+
+        /* both baloo bhai & poppins included */
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        h1 {
+            /* font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+
+            font-family: "Poppins", serif;
+            font-weight: 200;
+            font-style: italic;
+        }
+
+        p {
+            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
+            font-family: "Baloo Bhai 2", serif;
+            font-size: 20px;
+            /* line-height: 4; */
+
+            /* font-style: italic;
+            font-weight: 500; */
+            /* text-decoration: underline; */
+            /* text-decoration: overline; */
+        }
+
+        h2 {
+            text-transform: capitalize;
+            text-decoration: underline;
+            text-decoration-color: aqua;
+            text-decoration-style: wavy;
+            text-decoration-thickness: 9px;
+            /* text-indent: 45px; */
+            text-align: center;
+        }
+
+        .lorem {
+            border: 2px solid red;
+            /* width: 45px;
+            text-overflow:clip;
+            overflow:auto; */
+            width: 145px;
+            word-break: break-all;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- https://codepen.io/web-dot-dev/pen/yLojraG -->
+        <h1>Fonts</h1>
+        <h2>about fonts</h2>
+        <p>This is a video on fonts.</p>
+        <p class="lorem">A paragraph is defined as “a group of sentences or a single sentence that forms a unit”
+            (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a
+            paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be
+            just one sentence long.</p>
+    </div>
+</body>
+
+</html>
